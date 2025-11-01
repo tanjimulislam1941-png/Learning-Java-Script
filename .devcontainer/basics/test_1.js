@@ -37,9 +37,6 @@ console.log("Ifti Tanjimul Islam");
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 
-let name = "Tanjimul Islam";
-let age="23";
-let isLoggedIn = false
  //number => 2 to the power of 53
  //bigint => 123n
  //string => '' "" ``
@@ -49,6 +46,40 @@ let isLoggedIn = false
  //symbol => unique identifier
  //object => key-value pairs
 
-console.log(typeof name);
-console.log(typeof age);
-console.log(typeof isLoggedIn);
+
+ //
+
+//console.log(typeof name);
+//console.log(typeof age);
+//console.log(typeof isLoggedIn);
+
+//let score = 100;1; //number
+//let score2 = 123n; //bigint
+
+//console.log(typeof score);
+//console.log(typeof score2);
+
+let firstName = "Ifti";
+let lastName = "Tanjimul Islam";
+console.log(firstName + " " + lastName); //concatenation
+console.log(`${firstName} ${lastName}`); //template literal
+
+
+// let isLoggedIn = 1
+
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(booleanIsLoggedIn); 
+
+// ***************** Oparations *****************
+
+// ...existing code...
+let value = 3
+let negValue = -value
+console.log(negValue);
+// ...existing code...
+
+ let str1 = "hello"
+ let str2 = "Ifti"
+
+ let str3 = str1 + str2
+ console. log(str3);
