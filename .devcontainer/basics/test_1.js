@@ -1,8 +1,8 @@
- console.log("Ifti");
-console.log("Tanjimul Islam")
-console.log("Ifti Tanjimul Islam");
+//  console.log("Ifti");
+// console.log("Tanjimul Islam")
+// console.log("Ifti Tanjimul Islam");
 
-"use strict";
+// "use strict";
 //alert("Hello World!");  
 
 //for java script go to https://tc39.es/ecma262/
@@ -59,10 +59,10 @@ console.log("Ifti Tanjimul Islam");
 //console.log(typeof score);
 //console.log(typeof score2);
 
-let firstName = "Ifti";
-let lastName = "Tanjimul Islam";
-console.log(firstName + " " + lastName); //concatenation
-console.log(`${firstName} ${lastName}`); //template literal
+// let firstName = "Ifti";
+// let lastName = "Tanjimul Islam";
+// console.log(firstName + " " + lastName); //concatenation
+// console.log(`${firstName} ${lastName}`); //template literal
 
 
 // let isLoggedIn = 1
@@ -73,13 +73,49 @@ console.log(`${firstName} ${lastName}`); //template literal
 // ***************** Oparations *****************
 
 // ...existing code...
-let value = 3
-let negValue = -value
-console.log(negValue);
-// ...existing code...
+// let value = 3
+// let negValue = -value
+// console.log(negValue);
+// // ...existing code...
 
- let str1 = "hello"
- let str2 = "Ifti"
+//  let str1 = "hello"
+//  let str2 = "Ifti"
 
- let str3 = str1 + str2
- console. log(str3);
+//  let str3 = str1 + str2
+//  console. log(str3);
+
+
+
+// console. log(null > 0);
+// console. log(null == 0);        
+// console. log(null >= 0);   
+// console. log(undefined == 0);
+// console. log(undefined > 0);
+// console. log(undefined < 0);
+// console. log(undefined >= 0);
+// console. log(undefined <= 0);
+// console. log(undefined === 0);
+
+// Array, Objects, Functions
+const heros = ["shakib", "tamim", "mushfiq"];
+// Array
+
+let myObj = {
+    name: "Ifti",
+    age: 24,
+    isLoggedIn: true
+};
+// Object
+
+const myFunction = function() {
+    console.log("This is my function");
+};
+// Function
+
+// Stack (primitive types) vs Heap (objects, arrays, functions)
+let myYoutubename = "Ifti Tanjimul Islam"; // primitive type (string) → stored in stack
+let anotherName = myYoutubename;           // copy of the value (not a reference)
+anotherName = "New Name";                  // reassigning anotherName doesn’t affect myYoutubename
+
+console.log(myYoutubename); // Output: Ifti Tanjimul Islam
+console.log(anotherName);   // Output: New Name
