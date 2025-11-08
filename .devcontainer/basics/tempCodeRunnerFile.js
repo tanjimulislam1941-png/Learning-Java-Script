@@ -1,3 +1,5 @@
-console.log("Ifti");
-// console.log("Tanjimul Islam")
-// console.log("Ifti Tanjimul Islam");
+let i = 300;
+// while (i < 10) {
+//     console.log(i);
+//     i++;
+// }
