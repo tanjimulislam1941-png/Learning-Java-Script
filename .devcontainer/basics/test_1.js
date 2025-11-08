@@ -97,25 +97,97 @@
 // console. log(undefined === 0);
 
 // Array, Objects, Functions
-const heros = ["shakib", "tamim", "mushfiq"];
+// const heros = ["shakib", "tamim", "mushfiq"];
 // Array
 
-let myObj = {
+// let myObj = {
+//     name: "Ifti",
+//     age: 24,
+//     isLoggedIn: true
+// };
+// // Object
+
+// const myFunction = function() {
+//     console.log("This is my function");
+// };
+// // Function
+
+// // Stack (primitive types) vs Heap (objects, arrays, functions)
+// let myYoutubename = "Ifti Tanjimul Islam"; // primitive type (string) → stored in stack
+// let anotherName = myYoutubename;           // copy of the value (not a reference)
+// anotherName = "New Name";                  // reassigning anotherName doesn’t affect myYoutubename
+
+// console.log(myYoutubename); // Output: Ifti Tanjimul Islam
+// console.log(anotherName);   // Output: New Name
+
+//strings
+ 
+// const gameName = new String('Ift-iif')
+
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
+
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.charAt('t'));
+
+// const newString = gameName.slice(0,3);
+// console.log(newString);
+
+// const anotherString = gameName.slice(-8, 3); 
+// console.log(anotherString);
+
+// const newStringOne = "  Ifti   ";
+// console.log(newStringOne.trim());
+
+//loops
+
+console.log("Loops in JavaScript");
+
+let a = 10;
+
+for (let i = 0; i < 100; i++) {
+    
+    console.log(a + i);
+}
+
+let obj = {
     name: "Ifti",
     age: 24,
     isLoggedIn: true
 };
-// Object
+for (const key in obj) {
+    if (Object.hasOwnProperty.call(obj, key)) {
+        const element = obj[key];
+        console.log(key,element);
+    }
+}
 
-const myFunction = function() {
-    console.log("This is my function");
-};
-// Function
+for (const c of "Tanjimul Islam") {
+    console.log(c);
+}
+// for (let key in obj) {
+//     console.log(`Key is: ${key} and value is: ${obj[key]}`);
+// }
 
-// Stack (primitive types) vs Heap (objects, arrays, functions)
-let myYoutubename = "Ifti Tanjimul Islam"; // primitive type (string) → stored in stack
-let anotherName = myYoutubename;           // copy of the value (not a reference)
-anotherName = "New Name";                  // reassigning anotherName doesn’t affect myYoutubename
+// let myArray = [10, 20, 30, 40, 50];
 
-console.log(myYoutubename); // Output: Ifti Tanjimul Islam
-console.log(anotherName);   // Output: New Name
+// for (let index in myArray) {
+//     console.log(`Index is: ${index} and value is: ${myArray[index]}`);
+// }
+
+// for (let value of myArray) {
+//     console.log(`Value is: ${value}`);
+// }
+
+let i = 0;
+while (i < 10) {
+    console.log(i);
+    i++;
+}
+
+// do {
+//     console.log(i);
+//     i++;
+// } while (i < 10);   
+// end loops
